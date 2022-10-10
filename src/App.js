@@ -1,9 +1,41 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
+import Blog from "./components/Blog";
+import ErrorPage from "./components/ErrorPage";
+import Home from "./components/Home";
+import Quiz from "./components/Quiz";
+import Statistics from "./components/Statistics";
+import Main from "./layouts/Main";
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
+      children: [
+        {
+          path: "/",
+          element: <Home></Home>,
+        },
+        {
+          path: "quiz",
+          element: <Quiz></Quiz>,
+        },
+        {
+          path: "statistics",
+          element: <Statistics></Statistics>,
+        },
+        {
+          path: "blog",
+          element: <Blog></Blog>,
+        },
+      ],
+    },
+  ]);
   return (
     <div className="App">
-      <h2>Hello React</h2>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
