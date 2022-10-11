@@ -74,9 +74,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Dev Quiz
 
 ## Project Live Website Link
-Link is here: 
+Link is here: []
 
-## What am I done in this project?
+## What am I doing in this project?
 # I include React Router
 # I use HeroIcons, Tailwind, DaisyUI
 # I also use Recharts and React Toastify which were really very cool.

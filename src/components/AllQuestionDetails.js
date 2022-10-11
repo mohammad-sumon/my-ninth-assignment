@@ -7,16 +7,15 @@ import 'react-toastify/dist/ReactToastify.css';
 const AllQuestionDetails = ({qs}) => {
     // console.log(qs);
     const {options, question, correctAnswer} = qs;
-    // console.log(qs);
 
     const notify = () => toast(correctAnswer);
     
     return (
         
-        <div className='border-solid border-2 border-orange-200 my-6'>
+        <div className='border-solid border-2 border-orange-200 my-10 rounded-md'>
             <div className='flex justify-center items-center px-4'>
-            <p className='text-2xl'>Question: {question}</p>
-            <EyeIcon onClick={notify} className="h-6 w-6 text-orange-300 ml-4 cursor-pointer"/>
+            <p className='text-2xl mt-4'>Question: {question}</p>
+            <EyeIcon onClick={notify} className="h-8 w-8 text-orange-300 ml-4 mt-4 cursor-pointer"/>
             <ToastContainer position="top-center" autoClose={2000}></ToastContainer>
             </div>
             
