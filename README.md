@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Project Name
+### Dev Quiz
+
+## Project Live Website Link
+Link is here: 
+
+## What am I done in this project?
+# I include React Router
+# I use HeroIcons, Tailwind, DaisyUI
+# I also use rechart which was really very cool.
