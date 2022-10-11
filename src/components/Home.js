@@ -12,6 +12,7 @@ const Home = () => {
     <div>
       <div className="">
         <h1 className="font-semibold text-3xl mt-4">Welcome to Quiz Hub</h1>
+        <p>Here you can verify your Development level. Just go on your desired link and give answer some simple question. Happy Journey!!!</p>
         <img className="w-1/4 mx-auto rounded-md my-4" src={Image} alt="" />
       </div>
       <div className="flex flex-col my-12 gap-12">

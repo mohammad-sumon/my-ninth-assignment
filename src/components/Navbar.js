@@ -7,7 +7,6 @@ const Navbar = () => {
       <div className="container flex justify-between h-16 mx-auto">
         <Link
           rel="noopener noreferrer"
-          href="#"
           aria-label="Back to homepage"
           className="flex items-center p-2 text-4xl font-bold text-orange-600"
           to="/"
@@ -18,8 +17,7 @@ const Navbar = () => {
           <li className="flex">
             <Link
               rel="noopener noreferrer"
-              href="#"
-              className="flex items-center px-4 -mb-1 dark:border-transparent text-2xl text-orange-500"
+              className="flex items-center px-4 -mb-1 dark:border-transparent text-xl text-orange-500"
               to="/"
             >
               Home
@@ -28,8 +26,7 @@ const Navbar = () => {
           <li className="flex">
             <Link
               rel="noopener noreferrer"
-              href="#"
-              className="flex items-center px-4 -mb-1 dark:border-transparent text-2xl text-orange-500"
+              className="flex items-center px-4 -mb-1 dark:border-transparent text-xl text-orange-500"
               to="quiz"
             >
               Quiz
@@ -38,8 +35,7 @@ const Navbar = () => {
           <li className="flex">
             <Link
               rel="noopener noreferrer"
-              href="#"
-              className="flex items-center px-4 -mb-1 dark:border-transparent dark:text-violet-400 dark:border-violet-400 text-2xl text-orange-500"
+              className="flex items-center px-4 -mb-1 dark:border-transparent dark:text-violet-400 dark:border-violet-400 text-xl text-orange-500"
               to="statistics"
             >
               Statistics
@@ -48,8 +44,7 @@ const Navbar = () => {
           <li className="flex">
             <Link
               rel="noopener noreferrer"
-              href="#"
-              className="flex items-center px-4 -mb-1 dark:border-transparent text-2xl text-orange-500"
+              className="flex items-center px-4 -mb-1 dark:border-transparent text-xl text-orange-500"
               to="blog"
             >
               Blog
