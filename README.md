@@ -79,4 +79,4 @@ Link is here:
 ## What am I done in this project?
 # I include React Router
 # I use HeroIcons, Tailwind, DaisyUI
-# I also use rechart which was really very cool.
+# I also use Recharts and React Toastify which were really very cool.

@@ -3,7 +3,6 @@ import "./App.css";
 import Blog from "./components/Blog";
 import ErrorPage from "./components/ErrorPage";
 import Home from "./components/Home";
-import Quiz from "./components/Quiz";
 import QuizDetails from "./components/QuizDetails";
 import Statistics from "./components/Statistics";
 import Main from "./layouts/Main";
@@ -21,10 +20,6 @@ function App() {
             return fetch("https://openapi.programming-hero.com/api/quiz");
           },
           element: <Home></Home>,
-        },
-        {
-          path: "quiz",
-          element: <Quiz></Quiz>,
         },
         {
           path: 'quiz/:quizId',
