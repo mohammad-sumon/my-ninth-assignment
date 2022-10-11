@@ -5,10 +5,11 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const AllQuestionDetails = ({qs}) => {
-    console.log(qs);
-    const {options, question} = qs;
+    // console.log(qs);
+    const {options, question, correctAnswer} = qs;
+    // console.log(qs);
 
-    const notify = () => toast(qs.correctAnswer);
+    const notify = () => toast(correctAnswer);
     
     return (
         
@@ -20,7 +21,7 @@ const AllQuestionDetails = ({qs}) => {
             </div>
             
             {
-                options.map(ans => <AnswerOption key={ans.id} ans={ans}></AnswerOption>)
+                options.map(ans => <AnswerOption key={ans.id} ans={ans} qs={qs}></AnswerOption>)
             }
         </div>
     );

@@ -5,7 +5,7 @@ import AllQuestionDetails from './AllQuestionDetails';
 const QuizDetails = () => {
     const quiz = useLoaderData();
     const {name, total, questions} = quiz.data
-    // console.log(quiz);
+    console.log(quiz);
     return (
         <div>
             <h1 className='text-3xl font-bold text-orange-500'>{name}</h1>
